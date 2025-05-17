@@ -149,12 +149,24 @@ const Option = {
         "vue3-treeselect__checkbox--disabled": node.isDisabled
       };
 
+      const customCheckboxRenderer = instance.$slots["option-checkbox"];
+
+      if (customCheckboxRenderer) {
+        return customCheckboxRenderer({
+          node,
+          checkboxClass,
+          checkedState,
+        });
+      }
+
       if (!checkMark) {
         checkMark = <span class="vue3-treeselect__check-mark" />;
       }
       if (!minusMark) {
         minusMark = <span class="vue3-treeselect__minus-mark" />;
       }
+
+
 
       return (
         <span class={checkboxClass}>

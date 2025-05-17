@@ -372,6 +372,15 @@
         icon.
         <demo name="CustomizeControlX" />
 
+        <section-header name="Customize checkbox option" :level="2" />
+
+        You can customize the checkbox  by utilizing Vue's scoped slot
+        feature. This slot provide
+        <code>checkboxClass</code> and <code> checkedState </code> props.
+         having <code>checkedState</code> states <code> 0</code> for <code>UNCHECKED</code>
+        <code> 1</code> for <code>INDETERMINATE</code> and <code> 2</code> for <code>CHECKED</code>.
+        <demo name="CustomizeOptionCheckbox" />
+
         <section-header name="Customize Async Searching Tip" :level="2" />
 
         You can customize the text displayed when the async function is active.
@@ -463,6 +472,9 @@ const sections = [
       },
       {
         name: "Customize Control X"
+      },
+      {
+        name: "Customize Checkbox option"
       },
       {
         name: "Customize Async Searching Tip"

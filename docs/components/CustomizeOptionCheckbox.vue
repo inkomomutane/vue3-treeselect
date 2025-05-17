@@ -1,17 +1,15 @@
 <template>
   <treeselect v-model="value" :options="options" multiple>
-    <template #control-x>
-      <span>❌</span>
-    </template>
-    <template #option-checkbox="{ node, checkboxClass, checkedState }">
-      <div  style="padding: 8px; color: aqua;background: blue">{{ checkedState }}</div>
+    <template #option-checkbox="{ checkboxClass, checkedState }">
+      <span v-if="checkedState ===2">✔️</span>
+      <span v-else-if="checkedState === 1">➖</span>
+      <span v-else>🟨</span>
     </template>
   </treeselect>
 </template>
 
 <script>
 import { generateOptions } from "./utils";
-
 const options = generateOptions(2);
 
 export default {

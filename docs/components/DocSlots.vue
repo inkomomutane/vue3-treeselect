@@ -72,6 +72,13 @@ export default {
         )} for detailed information.`
       },
       {
+        name: "checked-option",
+        props: makePropList(["checkboxClass","checkedState"]),
+        description: `Slot for custom checked option template. See ${link(
+          "#customize-checkbox-option"
+        )} for detailed information.`
+      },
+      {
         name: "search-prompt-tip",
         props: makePropList(["text"]),
         description: `Slot for custom search prompt tip. See ${link(
