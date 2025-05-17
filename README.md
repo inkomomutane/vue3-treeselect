@@ -1,6 +1,6 @@
 # vue3-treeselect
 
-[![npm](https://badgen.now.sh/npm/v/@zanmato/vue3-treeselect)](https://www.npmjs.com/package/@zanmato/vue3-treeselect) ![License](https://badgen.net/github/license/zanmato/vue3-treeselect)
+[![npm](https://badgen.now.sh/npm/v/@inkomomutane/vue3-treeselect)](https://www.npmjs.com/package/@inkomomutane/vue3-treeselect) ![License](https://badgen.net/github/license/inkomomutane/vue3-treeselect)
 
 A multi-select component with nested options support for Vue 3.
 
@@ -26,7 +26,7 @@ _Requires Vue 3.0+_
 It's recommended to install vue3-treeselect via npm, and build your app using a bundler like [webpack](https://webpack.js.org/).
 
 ```bash
-npm install --save @zanmato/vue3-treeselect
+npm install --save @inkomomutane/vue3-treeselect
 ```
 
 This example shows how to integrate the component with your [Vue SFCs](https://vuejs.org/guide/scaling-up/sfc.html).
@@ -43,9 +43,9 @@ This example shows how to integrate the component with your [Vue SFCs](https://v
 import { reactive } from "vue";
 
 // import the component
-import Treeselect from "@zanmato/vue3-treeselect";
+import Treeselect from "@inkomomutane/vue3-treeselect";
 // import the styles
-import "@zanmato/vue3-treeselect/dist/vue3-treeselect.min.css";
+import "@inkomomutane/vue3-treeselect/dist/vue3-treeselect.min.css";
 
 const options = [
   {
@@ -80,7 +80,7 @@ const state = reactive({
 
 ### Documentation & Live Demo
 
-[Visit the website](https://zanmato.github.io/vue3-treeselect/)
+[Visit the website](https://inkomomutane.github.io/vue3-treeselect/)
 
 Note: please use a desktop browser since the website hasn't been optimized for mobile devices.
 
@@ -93,7 +93,7 @@ Note: please use a desktop browser since the website hasn't been optimized for m
 
 ### Bugs
 
-You can [open an issue](https://github.com/zanmato/vue3-treeselect/issues/new).
+You can [open an issue](https://github.com/inkomomutane/vue3-treeselect/issues/new).
 
 ### Contributing
 
@@ -106,7 +106,7 @@ You can [open an issue](https://github.com/zanmato/vue3-treeselect/issues/new).
 
 ### Credits
 
-This project is based on [vue3-treeselect by megafetis](https://github.com/megafetis/vue3-treeselect) which was based on [vue-treeselect by riophae](https://github.com/riophae/vue-treeselect).
+This project is based on [vue3-treeselect by  Andreas Johansson](https://github.com/zanmato/vue3-treeselect) which is based on [vue3-treeselect by megafetis](https://github.com/megafetis/vue3-treeselect) which was based on [vue-treeselect by riophae](https://github.com/riophae/vue-treeselect).
 Special thanks go to their respective authors!
 
 Some icons used in this project:
@@ -119,4 +119,4 @@ Some icons used in this project:
 
 ### License
 
-Released under the [MIT License](https://github.com/zanmato/vue3-treeselect/blob/master/LICENSE).
+Released under the [MIT License](https://github.com/inkomomutane/vue3-treeselect/blob/master/LICENSE).
